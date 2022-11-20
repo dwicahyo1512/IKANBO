@@ -2080,10 +2080,4 @@
 }
 
 
-@media screen and (max-width: 500px){
-    .flipbook-menuTop{
-        display: block;
-        overflow: auto;
-    }
-}
    
