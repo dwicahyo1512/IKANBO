@@ -669,7 +669,13 @@
     /* -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2); */
     /* box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2); */
 }
-
+/* tambahan padding */
+.flipbook-thumbsScroller{
+    padding-top: 20px;
+}
+.flipbook-toc-scroller{
+    padding-top: 30px;
+}
 .flipbook-toc {
     position: relative;
     margin: 0;
