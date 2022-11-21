@@ -161,6 +161,11 @@ header {
   transform: perspective(1300px) rotateY(0deg) translateZ(310px) scale(0.5);
 }
 
+.container.active .demo{
+  display: none;
+
+}
+
 @keyframes main-animation {
   from {
     transform: translate(0);

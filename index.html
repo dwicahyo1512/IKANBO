@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/parallax.css">
   </head>
   <body>
-    <div class="container">
+    <div class="container" >
       <div class="navbar">
         <div class="menu">
           <a class="navbar-brand" href="index.html">
@@ -22,7 +22,6 @@
           </div>
         </div>
       </div>
-
       <div class="main-container">
         <div class="main">
           <header>
@@ -48,6 +47,7 @@
           </header>
         </div>
       </div>
+     
 
       <div class="links">
         <ul>
@@ -66,7 +66,25 @@
          
         </ul>
       </div>
+      <div class="demo">
+        <section role="main" class="scroll-container" id="skrollr-body">
+          <section id="slide-1" class="homeSlide">
+            <div class="bcg" style="background-image:url(https://ihatetomatoes.net/demos/parallax-scroll-effect/img/bcg_slide-1.jpg)" 
+                 data-center="background-position: 50% 0px;" 
+                 data-top-bottom="background-position: 50% -100px;" 
+                 data-anchor-target="#slide-1">
+              <div class="hsContainer">
+                <div class="hsContent" data-center="opacity: 1" data-top="opacity: 0" data-anchor-target="#slide-1 h2">
+                  <h2>Fade out elements before<br />they leave viewport</h2>
+                  <p>This slide moves background image at a slower speed then the page scroll. Text is fading out to opacity 0 at 106 pixels from the top.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+      </div>
     </div>
+  </div>
 
     <script src="app.js"></script>
   </body>
