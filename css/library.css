@@ -819,6 +819,7 @@ a.button:hover, a.button:focus {
 */
 
 #footer {
+  margin-bottom: 0px;
   margin-top: 0px;
   padding: 15px 0 35px;
   border-top: 1px solid #fff;
@@ -830,4 +831,46 @@ a.button:hover, a.button:focus {
   color: #fff;
   font-size: 12px;
   text-align: center;
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 700px){
+  .book-item{
+    width: 100%;
+  }
+  .catalog-search{
+      right: 30px;
+      margin: -2px -42px;
+  }
+  .overlay-image{
+    top: 29%;
+  }
+
+  .main-overlay .overlay-details{
+
+    max-width: 400px;
+    max-height: 835px;
+  }
+  .main-overlay .overlay-image .back-color{
+    height: 469px;
+  }
+
+  .main-overlay .overlay-desc.activated {
+    display: inline;
+}
+  .main-overlay .overlay-desc.activated h2 {
+    padding-top: 29px;
+}
+.main-overlay .overlay-preview{
+  display: inline;
+  right: 312px;
+}
+.main-overlay .overlay-preview.activated{
+  top: 863px;
+}
+.main-overlay .preview-content {
+  width: 360px
+}
 }
