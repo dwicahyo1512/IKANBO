@@ -2085,3 +2085,119 @@
   cursor: pointer;
 }
    
+/* share */
+.rating:hover .rating-star:hover,
+.rating:hover .rating-star:hover ~ .rating-star,
+.rating-input:checked ~ .rating-star {
+    background-position: 0 0;
+    transition : all 0.3s ease-in-out;
+}
+
+.circle-icon {
+    margin-top: -13.8px;
+    background: #1d89ff;
+    color : white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align : middle;
+    line-height: 50px;
+    padding : 7px 7px;
+}
+
+.circle-icon:hover
+{
+  cursor : pointer;
+  background : transparent;
+  transition : all 0.1s ease-in-out;
+  color : #1d89ff;
+  border : 1px solid #1d89ff;
+}
+.rating-star,
+.rating:hover .rating-star {
+    position: relative;
+    float: right;
+    display: block;
+    padding-bottom : 0px;
+    width: 48px;
+    height: 48px;
+    transition : all 0.3s ease-in-out;
+    background: url('data:image/png;base64,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') 0 -48px;
+}
+.rating {
+    overflow: hidden;
+    display: inline-block;
+}
+
+.rating-input {
+    float: right;
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    margin: 0 0 0 -48px;
+    opacity: 0;
+}
+
+.wrapper {
+  position: relative;
+  display: block;
+  width: 90%;
+  height: auto;
+  margin: 0 15px 0 auto;
+  clear: left;
+}
+.wrapper::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+.wrapper.squares .square {
+  transition: border-radius 150ms ease, transform 350ms ease;
+}
+.wrapper.squares .square:hover {
+  border-radius: 50%;
+  transform: rotate(360deg);
+}
+a {
+  position: relative;
+  display: inline-block;
+  margin: 0 10px 10px 0;
+  padding: 0;
+  overflow: hidden;
+  float: left;
+  z-index: 1050;
+}
+a .fa {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  line-height: 48px;
+  z-index: 1055;
+}
+.twitter {
+  background: #55acee;
+}
+.facebook {
+  background: #3b5999;
+}
+.linkedin {
+  background: #0077B5;
+}
+.google-plus
+{
+  background : #dd4b39;
+}
+.whatsapp
+{
+  background : #25D366;
+}
+.email{
+  background : #777; 
+}
+.link{
+  background : #1d89ff;
+}
